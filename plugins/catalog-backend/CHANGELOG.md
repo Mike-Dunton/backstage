@@ -1,5 +1,27 @@
 # @backstage/plugin-catalog-backend
 
+## 1.6.0-next.3
+
+### Patch Changes
+
+- b05dcd5530: Move the `zod` dependency to a version that does not collide with other libraries
+- 71147d5c16: Internal code reorganization.
+- Updated dependencies
+  - @backstage/plugin-permission-common@0.7.2-next.2
+  - @backstage/plugin-permission-node@0.7.2-next.3
+  - @backstage/backend-common@0.17.0-next.2
+  - @backstage/backend-plugin-api@0.2.0-next.3
+  - @backstage/catalog-client@1.2.0-next.1
+  - @backstage/catalog-model@1.1.4-next.1
+  - @backstage/config@1.0.5-next.1
+  - @backstage/errors@1.1.4-next.1
+  - @backstage/integration@1.4.1-next.1
+  - @backstage/types@1.0.2-next.1
+  - @backstage/plugin-catalog-common@1.0.9-next.3
+  - @backstage/plugin-catalog-node@1.3.0-next.3
+  - @backstage/plugin-scaffolder-common@1.2.3-next.1
+  - @backstage/plugin-search-common@1.2.0-next.3
+
 ## 1.6.0-next.2
 
 ### Minor Changes
