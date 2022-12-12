@@ -26,7 +26,7 @@ import { Repo } from './Repo';
 import { TEST_IDS } from '../../test-helpers/test-ids';
 import { useProjectContext } from '../../contexts/ProjectContext';
 
-jest.mock('react-router', () => ({
+jest.mock('react-router-dom', () => ({
   useNavigate: jest.fn(),
   useLocation: jest.fn(() => ({
     search: mockSearchCalver,
@@ -77,7 +77,7 @@ describe('Repo', () => {
           data-testid="grm--form--repo--empty"
         >
           Custom queries can be made via the query param
-           
+
           <strong>
             repo
           </strong>
